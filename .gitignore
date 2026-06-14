@@ -1,3 +1,5 @@
 node_modules/
 .dev.vars
 .wrangler/
+# Use pnpm — upstream Sveltia's choice — not npm. Avoid committing the wrong lockfile.
+package-lock.json
