@@ -3,3 +3,4 @@ node_modules/
 .wrangler/
 # Use pnpm — upstream Sveltia's choice — not npm. Avoid committing the wrong lockfile.
 package-lock.json
+.DS_Store

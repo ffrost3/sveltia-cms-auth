@@ -7,7 +7,7 @@ compatibility_date = "2023-03-24"
 # instances here as they come online. Comma-separated; wildcards
 # supported (e.g. *.example.com matches subdomains only, not the apex).
 # Empty/unset means "allow all" — never ship empty in production.
-ALLOWED_DOMAINS = "openbid-clendon.pages.dev"
+ALLOWED_DOMAINS = "openbid-clendon.pages.dev,openbid-southmall.pages.dev"
 # Public OAuth app client ID — safe to commit (not a secret). The matching
 # secret is GITHUB_CLIENT_SECRET, stored separately via `wrangler secret put`.
 GITHUB_CLIENT_ID = "Ov23litu5oQTKY5hhSnt"
